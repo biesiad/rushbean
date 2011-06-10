@@ -1,0 +1,25 @@
+title: 'Serwisy internetowe: Rushbean - Aplikacje z kofeiną'
+
+menu:
+  manifesto: manifest
+  work: prace 
+  contact: kontakt 
+  blog: blog
+
+manifesto:
+  line1: Tutaj parzę i podaję serwisy internetowe, które obudzą twój biznes.
+  line2: Przygotowuję je ze starannie wybranych technologii Open Source i ozdabiam gustowną oprawą graficzną.
+   
+laundryqueue:
+  brief: LaundryQueue jest prostą aplikacją, która pomoże Ci zarządzać współdzielonymi zasobami. Bez względu na to czy potrzebujesz zarządzać dostępem do pralki, sali konferencyjnej, wiertarki czy stołu bilardowego, z LaundryQueue zrobisz to szybko i bezboleśnie.
+  
+oskmichalski:
+  brief: Strona internetowa ośrodka szkolenia kierowców "Michalski". Odświeżona szata graficzna zapewnijąca wysoką czytelność i łatwość dotarcia do poszukiwanych informacji.  
+
+contact:
+  form:
+    name: 'Imię:'
+    email: 'Adres email:'
+    message: Wiadomość 
+    submit: Wyślij 
+  info: Jeśli chciałbyś się ze mną skontaktować, użyj formularza, napisz maila lub po prostu zadzwoń. 

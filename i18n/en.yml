@@ -1,0 +1,25 @@
+title: 'Web development services: Rushbean - Applications with caffeine'
+
+menu:
+  manifesto: manifesto
+  work: work
+  contact: contact
+  blog: blog
+
+manifesto:
+  line1: Here I brew and serve web applications that will boost your bussiness.
+  line2: I prepare it from carefuly selected grains of Open Source technologies and decorate with tasteful graphic design.
+
+laundryqueue:
+  brief: LaundryQueue is a simple tool to help you schedule your shared resources. It makes much easier to manage washing machine, boardroom, driller or anything you share with group of people at work or home.
+
+oskmichalski:
+  brief: Driving school website redesign. Designed new layout with focus on clarity and ease of use.
+
+contact:
+  form:
+    name: "Name:"
+    email: "Email:"
+    message: Message
+    submit: Send
+  info: If you have any questions, please use the form on the left, send me an email or just call me.
