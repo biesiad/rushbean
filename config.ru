@@ -1,5 +1,5 @@
 require 'rubygems'
 require 'sinatra'
-require 'rushbean.rb'
+require 'rushbean'
 
 run Sinatra::Application
