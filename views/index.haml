@@ -61,21 +61,21 @@
         #contact
           .separator &nbsp;
           #form
-            %form{ :action => '', :method => 'post' }    
-              %p
-                %label{ :for => 'name' }= t.contact.form.name
-                %input#name{ :type => 'text' }
-              %p
-                %label{ :for => 'email' }= t.contact.form.email
-                %input#email{ :type => 'text' }
-              %p
-                %label{ :for => 'message' }= t.contact.form.message
-                %textarea#message
-              %p
-                %input#send{ :type => 'submit', :value => t.contact.form.submit }
+            -#%form{ :action => '', :method => 'post' }    
+              -#%p
+                -#%label{ :for => 'name' }= t.contact.form.name
+                -#%input#name{ :type => 'text' }
+              -#%p
+                -#%label{ :for => 'email' }= t.contact.form.email
+                -#%input#email{ :type => 'text' }
+              -#%p
+                -#%label{ :for => 'message' }= t.contact.form.message
+                -#%textarea#message
+              -#%p
+                -#%input#send{ :type => 'submit', :value => t.contact.form.submit }
 
           #address
-            %p= t.contact.info
+            -#%p= t.contact.info
             %p.new.title Grzegorz Biesiadecki
             %p
               %a{ :href => 'mailto:contact@rushbean.com' } contact@rushbean.com
