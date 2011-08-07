@@ -42,9 +42,11 @@
           %p.brief= t.laundryqueue.brief
           %p.tech
             Tech:&nbsp; 
-            %a> Ruby on Rails
+            %span> Ruby on Rails
             ,
-            %a jQuery 
+            %span Javascript
+            ,
+            %span jQuery 
 
           %a{ :href => 'http://www.oskmichalski.pl' }
             %h2 OSK Michalski 
@@ -54,9 +56,25 @@
           %p.brief= t.oskmichalski.brief 
           %p.tech
             Tech:&nbsp;
-            %a> CSS
+            %span> CSS
             ,
-            %a jQuery
+            %span Javascript
+            ,
+            %span jQuery
+
+          %a{ :href => 'http://www.teamtracker.com' }
+            %h2 Teamtracker 
+          .wraper
+            %a{ :href => 'http://www.Teamtracker.com' }
+              %img.with-shadow{ :src => 'images/teamtracker.png', :alt => 'Teamtracker' }
+          %p.brief= t.teamtracker.brief 
+          %p.tech
+            Tech:&nbsp;
+            %span> Google Maps
+            ,
+            %span Javascript 
+            ,
+            %span jQuery
 
         #contact
           .separator &nbsp;

@@ -16,6 +16,9 @@ laundryqueue:
 oskmichalski:
   brief: Strona internetowa ośrodka szkolenia kierowców "Michalski". Odświeżona szata graficzna zapewnijąca wysoką czytelność i łatwość dotarcia do poszukiwanych informacji.  
 
+teamtracker:
+  brief: Implementacja playera regat. Pozwala śledzić zawody w czasie rzeczywistym i odtwarzać imprezy archiwalne.
+
 contact:
   form:
     name: 'Imię:'

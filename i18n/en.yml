@@ -16,6 +16,9 @@ laundryqueue:
 oskmichalski:
   brief: Driving school website redesign. Designed new layout with focus on clarity and ease of use.
 
+teamtracker:
+  brief: Implementation of complete race player. Allows real-time tracking and playing archive races. Created with Google Maps.
+
 contact:
   form:
     name: "Name:"
