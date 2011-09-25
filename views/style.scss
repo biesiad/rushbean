@@ -87,7 +87,11 @@ textarea {
 #header a:hover { color: #B6B4A3; }
 #header ul { color: #B6B4A3; }
 #header li { display: inline; }
-#header li a { margin: 0px 5px;}
+#header li a:after { 
+    content: '  ::'; 
+    margin: 0 5px; 
+}
+#header li:last-child a:after { content: ''; }
 
 #content {
   background-repeat: repeat-y;
