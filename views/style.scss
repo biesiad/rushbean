@@ -1,183 +1,217 @@
 $font-color: #857264;
 
 * {
-  margin: 0px;
-  padding: 0px;
-  border: 0px;
-  color: $font-color;
-  font-family: "adobe-garamond-pro-1","adobe-garamond-pro-2", "Times New Roman", serif;
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+    color: $font-color;
+    font-family: "adobe-garamond-pro-1","adobe-garamond-pro-2", "Times New Roman", serif;
 }
 
-body { background-color: #778B5C; font-size: 16px; }
+body { 
+    background-color: #778B5C; 
+    font-size: 16px; 
+}
 
-a { color: #486733; text-decoration: none; }
+a { 
+    color: #486733; 
+    text-decoration: none; 
+}
 a:hover { color: #778B5C; }
 
 h1 { 
-  font-weight: normal;
-  margin-bottom: 10px; 
-  color: #524843; 
-  font-size: 30px;
-  text-shadow: 1px 1px 0px rgba(255, 255, 255, 0.8);
+    font-weight: normal;
+    margin-bottom: 10px; 
+    color: #524843; 
+    font-size: 30px;
+    text-shadow: 1px 1px 0px rgba(255, 255, 255, 0.8);
 } 
 
 h2 {
-  color: #486733;
-  font-weight: normal;
-  text-shadow: 1px 1px 0px #fff;
-  margin-bottom: 5px;
-  text-align: left; 
+    color: #486733;
+    font-weight: normal;
+    text-shadow: 1px 1px 0px #fff;
+    margin-bottom: 5px;
+    text-align: left; 
 }
 
-label { font-size: 14px; display: block; }
+p { text-align: left; }
+p.new { margin-top: 15px; }
+.title { font-style: italic; }
 
-input, textarea {
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 12px;
-  padding: 0px 3px;
-  color: #7D886F;
+#wraper { width: 100%; 
+    text-align: center; 
+    background-position: 50%; 
 }
-input[type="text"] {
-  width: 170px;
-  height: 21px;
-  height: 2em;
-  border-top: 1px solid #D4CFC3; 
-  border-left: 1px solid #D4CFC3; 
-  background-color: #EBECD6; 
-}
-input[type="submit"] { 
-  color: #524843;
-  margin: 3px; height: 27px; width: 107px; background-image: url(images/button.png);
-  font-family: "adobe-garamond-pro-1","adobe-garamond-pro-2", "Times New Roman", serif;
-  text-shadow: 1px 1px 0px #ddd;
-  background-color: transparent;
-  cursor: pointer;
-}
-
-input[type="submit"] { 
-  &:hover { background-position: -107px;  }
-  &:active { background-position: -214px; }
-}
-
-textarea {
-  width: 240px;
-  border-top: 1px solid #D4CFC3; 
-  border-left: 1px solid #D4CFC3; 
-  background-color: #EBECD6; 
-  padding: 3px;
-  height: 10em;
-}
-
-#wraper { width: 100%; text-align: center; background-position: 50%; }
 
 #header { 
-  background-color: #4D433D; 
-  padding: 8px; 
-  border-bottom: 1px solid rgba(251, 249, 236, 0.6); 
-  
-  a { 
-    font-size: 14px; color: #949287; 
-    &:hover { color: #B6B4A3; }
-    ul { color: #B6B4A3;
-      li { display: inline;
-        a { margin: 0px 5px; }
-} } } } 
+    background-color: #4D433D; 
+    padding: 8px; 
+    border-bottom: 1px solid rgba(251, 249, 236, 0.6); 
 
-#header a { font-size: 14px; color: #949287; }
-#header a:hover { color: #B6B4A3; }
-#header ul { color: #B6B4A3; }
-#header li { display: inline; }
-#header li a:after { 
-    content: '  ::'; 
-    margin: 0 5px; 
-}
-#header li:last-child a:after { content: ''; }
+    a { 
+        font-size: 14px; 
+        color: #949287; 
+        &:hover { color: #B6B4A3; }
+    } 
+    li { display: inline; }
+    li a:after { 
+        content: ' ::'; 
+    }
+    li:last-child a:after { content: ''; }
+} 
 
 #content {
-  background-repeat: repeat-y;
-  background-image: url(images/bg.png);
-  margin: auto;
-  padding: 0px 193px 0px 193px;
-  position: relative;
-  width: 500px;
+    background-repeat: repeat-y;
+    background-image: url(images/bg.png);
+    margin: auto;
+    padding: 0px 193px 0px 193px;
+    position: relative;
+    width: 500px;
 }
 
-.xses { height: 7px; background-image: url(images/xses.png); }
-#shadows { position: absolute; top: 0px; left: 0px; width: 886px; height: 500px; background-image: url(images/top-shadow.png); }
-#badge { position: absolute; top: -5px; right: 8px; width: 172px; height: 172px; background-image: url(images/badge.png); }
-#badge + img { margin-top: 80px; }
-
-#manifesto { text-align: left; font-size: 30px; text-shadow: 1px 1px 0px #FBF9F5; }
-#manifesto h1 p { margin-bottom: 10px; color: #524843; }
-#work { text-align: left; }
-.wraper { position: relative; margin-bottom: 20px; }
+.xses { 
+    height: 7px; 
+    background-image: url(images/xses.png); 
+}
+#shadows { 
+    position: absolute; 
+    top: 0px; 
+    left: 0px; 
+    width: 886px; 
+    height: 500px; 
+    background-image: url(images/top-shadow.png); 
+}
+#badge { 
+    position: absolute; 
+    top: -5px; 
+    right: 8px; 
+    width: 172px; 
+    height: 172px; 
+    background-image: url(images/badge.png); 
+    & + img { margin-top: 80px; }
+}
+#manifesto { 
+    text-align: left; 
+    font-size: 30px; 
+    text-shadow: 1px 1px 0px #FBF9F5; 
+    h1 p { 
+        margin-bottom: 10px; 
+        color: #524843; 
+    }
+}
+#work { 
+    text-align: left;
+    img { 
+        position: relative; 
+        z-index: 1; 
+    }
+}
+.wraper { 
+    position: relative; 
+    margin-bottom: 20px; 
+}
 .shadow {
-  position: absolute;
-  top: 7px;
-  left: 7px;
-  z-index: 0;
-  background-image: url(images/img_shadow.png);
+    position: absolute;
+    top: 7px;
+    left: 7px;
+    z-index: 0;
+    background-image: url(images/img_shadow.png);
 }
-#work img { position: relative; z-index: 1; }
-.brief { font-size: 16px; margin-bottom: 10px; }
-
+.brief { 
+    font-size: 16px; 
+    margin-bottom: 10px; 
+}
 .tech { 
-  font-size: 14px; 
-  margin-bottom: 80px; 
-  padding-bottom: 10px;
-  span {
-    color: ($font-color - 30);
+    font-size: 14px; 
+    margin-bottom: 80px; 
+    padding-bottom: 10px;
+    span {
+        color: ($font-color - 30);
   }
 }
 
 #about { text-align: left; }
-#about img { position: relative; z-index: 1; width: 100px; height: 120px; float: left; 
-border: 5px solid #EBECD6;
-margin-right: 20px; background-color: #E9EBD5; 
--moz-box-shadow: 3px 3px 5px rgba(60, 60, 60, 0.2);
--webkit-box-shadow: 3px 3px 5px rgba(60, 60, 60, 0.2);
-box-shadow: 3px 3px 5px rgba(60, 60, 60, 0.2);
+#about img { 
+    position: relative; 
+    z-index: 1; 
+    width: 100px; 
+    height: 120px; 
+    float: left; 
+    border: 5px solid #EBECD6;
+    margin-right: 20px; background-color: #E9EBD5; 
+    -moz-box-shadow: 3px 3px 5px rgba(60, 60, 60, 0.2);
+    -webkit-box-shadow: 3px 3px 5px rgba(60, 60, 60, 0.2);
+    box-shadow: 3px 3px 5px rgba(60, 60, 60, 0.2);
 }
 
 #contact { text-align: left; padding-bottom: 100px; }
 #contact #form p { margin-top: 5px; }
 #contact #form { float: left; }
 #contact #address p {
-  display: block;
-  float: left;
-  //margin-left: 60px;
-  font-size: 16px;
-  //width: 180px;
-  clear: both;
+    display: block;
+    float: left;
+    font-size: 16px;
+    clear: both;
 }
 
 #footer {
-  font-size: 14px; background-color: #4D433D; padding: 8px; border-top: 1px solid rgba(251, 249, 236, 0.5);
-  div { width: 858px; margin: auto; padding: 0px 14px; }
-  a { font-size: 14px; margin: 0px 5px; color: #949287; }
-  a:hover { margin: 0px 5px; color: #B6B4A3; }
-  p { color: #B6B4A3; display: inline;
-    &:first-child { float: left; }
-    &:last-child { float: right; }
-    a:last-child { margin-right: 0px; }
-  }
+    font-size: 14px; 
+    background-color: #4D433D; 
+    padding: 8px; 
+    border-top: 1px solid rgba(251, 249, 236, 0.5);
+
+    div { width: 858px; 
+        margin: auto; 
+        padding: 0px 14px; 
+    }
+    a { 
+        font-size: 14px; 
+        margin: 0px 5px; 
+        color: #949287; 
+    }
+    a:hover { 
+        margin: 0px 5px; 
+        color: #B6B4A3; 
+    }
+    p { 
+        color: #B6B4A3; 
+        display: inline;
+        &:first-child { float: left; }
+        &:last-child { float: right; }
+        a:last-child { margin-right: 0px; }
+    }
 }
 
-.separator { height: 42px; padding-top: 30px; 
-  background-repeat: no-repeat;
-  background-position: 0px 50%;
-  margin-top: 80px; 
-  margin-bottom: -20px; 
+.separator { 
+    height: 42px; 
+    padding-top: 30px; 
+    background-repeat: no-repeat;
+    background-position: 0px 50%;
+    margin-top: 80px; 
+    margin-bottom: -20px; 
 }
+
 #manifesto .separator { background-image: url(images/manifesto.png); }
 #work .separator { background-image: url(images/work.png); }
 #about .separator { background-image: url(images/about.png); }
 #contact .separator { background-image: url(images/contact.png); }
 
-p { text-align: left; }
-p.new { margin-top: 15px; }
-.title { font-style: italic; }
-
-span.error { font-size: 14px; display: block; color: #a63939; }
-span.ok { font-size: 14px; display: block; }
-
+img[alt='Railsberry badge'] {
+    position: absolute; 
+    top: -40px; 
+    left: -40px; 
+    -webkit-transform: rotate(-10deg); 
+    -moz-transform:rotate(-10deg);
+    transform:rotate(-10deg);
+    -webkit-transition: all .5s;
+    -moz-transition: all .5s;
+    transition: all .5s;
+    &:hover {
+        top: 15px;
+        left: 15px;
+        -webkit-transition: all .5s;
+        -moz-transition: all .5s;
+        transition: all .5s;
+    }
+}

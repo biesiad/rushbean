@@ -3,19 +3,9 @@
     %title= t.title
     %link{ :rel => 'stylesheet', :href => 'style.css', :type => 'text/css', :media => 'screen', :charset => 'utf-8' }
     %link{ :rel => 'icon', :type => 'image/png', :href => 'favicon.png' }
-    :plain
-      <script type="text/javascript">
-        var _gaq = _gaq || [];
-        _gaq.push(['_setAccount', 'UA-19997735-2']);
-        _gaq.push(['_setDomainName', '.rushbean.com']);
-        _gaq.push(['_trackPageview']);
-        (function() {
-          var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-          ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-          var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-        })();
-      </script>
-    
+    <script type="text/javascript" src="http://use.typekit.com/utt1owf.js"></script>
+    <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+
   %body
     #wraper
       #header  
@@ -28,6 +18,8 @@
             %a{ :href => '#contact' }= t.menu.contact
           %li
             %a{ :href => 'http://github.com/biesiad' } github
+          %li
+            %a{ :href => 'http://twitter.com/biesiad' } twitter 
 
       #content
         .xses
@@ -87,40 +79,35 @@
 
         #contact
           .separator &nbsp;
-          #form
-            -#%form{ :action => '', :method => 'post' }    
-              -#%p
-                -#%label{ :for => 'name' }= t.contact.form.name
-                -#%input#name{ :type => 'text' }
-              -#%p
-                -#%label{ :for => 'email' }= t.contact.form.email
-                -#%input#email{ :type => 'text' }
-              -#%p
-                -#%label{ :for => 'message' }= t.contact.form.message
-                -#%textarea#message
-              -#%p
-                -#%input#send{ :type => 'submit', :value => t.contact.form.submit }
-
           #address
-            -#%p= t.contact.info
             %p.new.title Grzegorz Biesiadecki
-            %p contact&nbsp;@&nbsp;rushbean.com
+            %p contact&nbsp;(at)&nbsp;rushbean.com
             %p tel.: +48 605 33 22 32
           %div{ :style => 'clear: both;' }
 
       #footer
         %div
+          %a{ :href => 'http://railsberry.com' }
+            %img{ :class => 'badge', :alt => 'Railsberry badge', :src => 'http://railsberry.com/images/railsberry_badge.png' }
           %p Copyright &copy; 2010 rushbean.com
           %p
             %a{ :href => '#manifesto' }= t.menu.manifesto 
             %a{ :href => '#work' }= t.menu.work 
             %a{ :href => '#contact' }= t.menu.contact 
             %a{ :href => 'http://github.com/biesiad' } github
+            %a{ :href => 'http://twitter.com/biesiad' } twitter 
         %div{ :style => 'clear: both;' }
       
       :plain
-        <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>
-        <script type=text/javascript>$SCRIPT_ROOT = "";</script>
-        <script type="text/javascript" src="http://use.typekit.com/utt1owf.js"></script>
-        <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
         <script src=/script.js></script>
+        <script type="text/javascript">
+          var _gaq = _gaq || [];
+          _gaq.push(['_setAccount', 'UA-19997735-2']);
+          _gaq.push(['_setDomainName', '.rushbean.com']);
+          _gaq.push(['_trackPageview']);
+          (function() {
+            var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+            ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+            var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+          })();
+        </script>

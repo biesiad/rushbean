@@ -1,3 +1,2 @@
 .DS_Store
-/src/tmp/*
-.sass_cache
+.sass-cache
