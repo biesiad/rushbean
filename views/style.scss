@@ -7,18 +7,15 @@ $font-color: #857264;
     color: $font-color;
     font-family: "adobe-garamond-pro-1","adobe-garamond-pro-2", "Times New Roman", serif;
 }
-
 body { 
     background-color: #778B5C; 
     font-size: 16px; 
 }
-
 a { 
     color: #486733; 
     text-decoration: none; 
+    &:hover { color: #778B5C; }
 }
-a:hover { color: #778B5C; }
-
 h1 { 
     font-weight: normal;
     margin-bottom: 10px; 
@@ -26,7 +23,6 @@ h1 {
     font-size: 30px;
     text-shadow: 1px 1px 0px rgba(255, 255, 255, 0.8);
 } 
-
 h2 {
     color: #486733;
     font-weight: normal;
@@ -34,7 +30,6 @@ h2 {
     margin-bottom: 5px;
     text-align: left; 
 }
-
 p { text-align: left; }
 p.new { margin-top: 15px; }
 .title { font-style: italic; }
@@ -43,7 +38,6 @@ p.new { margin-top: 15px; }
     text-align: center; 
     background-position: 50%; 
 }
-
 #header { 
     background-color: #4D433D; 
     padding: 8px; 
@@ -55,12 +49,9 @@ p.new { margin-top: 15px; }
         &:hover { color: #B6B4A3; }
     } 
     li { display: inline; }
-    li a:after { 
-        content: ' ::'; 
-    }
+    li a:after { content: ' ::'; }
     li:last-child a:after { content: ''; }
 } 
-
 #content {
     background-repeat: repeat-y;
     background-image: url(images/bg.png);
