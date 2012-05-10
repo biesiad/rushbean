@@ -49,7 +49,8 @@ p.new { margin-top: 15px; }
         &:hover { color: #B6B4A3; }
     } 
     li { display: inline; }
-    li a:after { content: ' ::'; }
+    li:after { content: ' ::'; }
+    li:last-child:after { content: ''; }
     li:last-child a:after { content: ''; }
 } 
 #content {
