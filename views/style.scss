@@ -190,22 +190,3 @@ p.new { margin-top: 15px; }
 #work .separator { background-image: url(images/work.png); }
 #about .separator { background-image: url(images/about.png); }
 #contact .separator { background-image: url(images/contact.png); }
-
-img[alt='Railsberry badge'] {
-    position: absolute; 
-    top: -40px; 
-    left: -40px; 
-    -webkit-transform: rotate(-10deg); 
-    -moz-transform:rotate(-10deg);
-    transform:rotate(-10deg);
-    -webkit-transition: all .5s;
-    -moz-transition: all .5s;
-    transition: all .5s;
-    &:hover {
-        top: 15px;
-        left: 15px;
-        -webkit-transition: all .5s;
-        -moz-transition: all .5s;
-        transition: all .5s;
-    }
-}
